@@ -8,8 +8,8 @@ public class JogadorAtacante extends Jogador {
         this.tecnica = tecnica;
         }
 
-     public int gettecnica(){
-           return this.tecnica;
+     public int gettecnica(int habilidade){
+           return  ((habilidade*5) + (velocidade*2) + (tecnica*3) )/10;
         }
      
    public void JogadorAtacante(String nome, int idade, int habilidades, int velocidade, int tecnica){
