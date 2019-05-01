@@ -6,6 +6,5 @@ public class App {
          
          Partida r2 = new Partida();
          r2.setPlacar(2 , 1);
-         r2.set
      }
 }

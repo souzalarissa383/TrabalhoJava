@@ -6,13 +6,13 @@ public class Jogador {
     protected int habilidades;
     private int gols;
   
-    public void Jogador (String nome, int idade, int habilidades){
-       
-    }
-    
-    
-     
-    public String getnome() {
+	public Jogador(String pNom, int pIda, int pHa ) {
+		this.nome = pNom;
+		this.idade = pIda;
+		this.habilidades = pHa;
+	}
+	
+    public String getNome() {
        return this.nome;
     }
     
@@ -21,7 +21,7 @@ public class Jogador {
         this.habilidades = habilidades;
     }
      
-    public int gethabilidades() {
+    public int getHabilidades() {
         return 0;
     }
     
@@ -29,7 +29,7 @@ public class Jogador {
         this.gols = gols;
     }
      
-    public int getgols() {
+    public int getGols() {
        return this.gols;
     }
     
